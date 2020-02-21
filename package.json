@@ -1,6 +1,6 @@
 {
   "name": "marcellus",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "CLI tool for creating express API's",
   "main": "index.js",  
   "keywords": [],
