@@ -36,8 +36,9 @@ $ mkdir foo && cd foo
 ```
 Create a new project with:
 ```bash
-$ marcellus create foo
+$ marcellus create -n foo -d bar
 ```
+`-n`: aplication name `-d`: application description
 Create index page with:
 
 ```bash
@@ -54,14 +55,3 @@ $ node index.js
 ## License
 
   [MIT](LICENSE)
-
-[npm-image]: https://img.shields.io/npm/v/express.svg
-[npm-url]: https://npmjs.org/package/express
-[downloads-image]: https://img.shields.io/npm/dm/express.svg
-[downloads-url]: https://npmjs.org/package/express
-[travis-image]: https://img.shields.io/travis/expressjs/express/master.svg?label=linux
-[travis-url]: https://travis-ci.org/expressjs/express
-[appveyor-image]: https://img.shields.io/appveyor/ci/dougwilson/express/master.svg?label=windows
-[appveyor-url]: https://ci.appveyor.com/project/dougwilson/express
-[coveralls-image]: https://img.shields.io/coveralls/expressjs/express/master.svg
-[coveralls-url]: https://coveralls.io/r/expressjs/express?branch=master
